@@ -26,14 +26,14 @@ int main() {
 	
 	for(int i=0;i<comisiones;i++) { 
 		int aux = 1;
+		stringstream ss;
+		ss << "comision" << aux << ".txt";
+		ofstream archi2(ss.str(),ios::trunc);
 		for(int j=0;j<5;j++) { 
-			int aux = 1;
-			stringstream ss;
-			ss << "comision" << aux << ".txt";
-			ofstream archi2(ss.str(),ios::trunc);
 			archi2 << v[j] << endl;
 		}
 		aux++;
+		archi2.close();
 	}
 	
 	return 0;
