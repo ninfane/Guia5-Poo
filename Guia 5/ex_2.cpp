@@ -51,8 +51,7 @@ int main() {
 	
 	ofstream aout("lista.txt",ios::trunc);
 	for(size_t i=0;i<v.size();i++) { 
-		aout << setw(5);
-		aout << v[i].name << v[i].pro << v[i].condition << endl;
+		aout << v[i].name << " " << v[i].pro << " " << v[i].condition << endl;
 	}
 	
 	return 0;
