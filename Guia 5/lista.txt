@@ -1,6 +1,1 @@
-Lopez Javier 
-56 90 
-Garcia Ana
-77 81 
-Farias Daniel 
-60 62
+Lopez Javier  6.77339e-039 
