@@ -6,6 +6,10 @@ int main() {
 	
 	string s1 = "al infinito y mas alla";
 	
+	//desde un valor hasta cierto caracter
+	string uno = s1.substr(0,s1.find("y"));
+	cout << uno << endl;
+	
 	//a partir de la posicion 3, mostrar 8 caracteres 
 	string s2 = s1.substr(3,8); //muestra 'infinito'
 	cout <<  s2 << endl;

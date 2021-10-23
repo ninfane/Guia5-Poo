@@ -1,0 +1,9 @@
+carpeta
+escritorio
+lapiz
+pizarron
+tiza
+ventana
+cuaderno
+borrador
+

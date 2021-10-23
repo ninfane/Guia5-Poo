@@ -1,13 +1,8 @@
-#ejemplo de archivo de configuracion 
-materia=Programacion orientada a objetos 
-carrera=Ingenieria en informatica
-facultad=Facultad de Ingenieria y Ciencias Hidricas 
-univerdad=Universidad Nacional del Litoral 
-#ignorar 
-nro_unidad=5
-nombre_unidad=Flujos de entrada y salida
-otro_campo=otro_valor
-otro_campo_mas=otro_valor_mas
-#campo_noleido1=basura1
-#campo_noleido2=basura2
-#campo_noleido3=basura3
+materia=Fundamentos de programacion
+carrera=carrera=Ingenieria en informatica
+facultad=facultad=Facultad de Ingenieria y Ciencias Hidricas 
+univerdad=univerdad=Universidad Nacional del Litoral 
+nro_unidad=nro_unidad=5
+nombre_unidad=nombre_unidad=Flujos de entrada y salida
+otro_campo=otro_campo=otro_valor
+otro_campo_mas=otro_campo_mas=otro_valor_mas

@@ -1,0 +1,6 @@
+Lopez Javier        73        Promocionado
+Garcia Ana          79        Promocionado
+Farias Daniel       99        Promocionado
+Recalde Anibal      50.5      Regular
+  Tome Carlos         39.5      Libre
+    
