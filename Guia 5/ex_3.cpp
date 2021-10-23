@@ -24,15 +24,15 @@ int main() {
 	
 	ain.close();
 	
+	int inicio = 0; int fin = 5;
 	for(int i=0;i<comisiones;i++) { 
-		int aux = 1;
 		stringstream ss;
-		ss << "comision" << aux << ".txt";
+		ss << "comision" << i+1 << ".txt";
 		ofstream archi2(ss.str(),ios::trunc);
-		for(int j=0;j<5;j++) { 
+		for(int j=inicio;j<fin;j++) { 
 			archi2 << v[j] << endl;
 		}
-		aux++;
+		inicio +=5; fin+=5;
 		archi2.close();
 	}
 	
